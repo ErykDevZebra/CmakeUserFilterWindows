@@ -9,15 +9,21 @@ Compiling the filter requires MVSC compiler installed and CMake.
 Having [Aurora™ Vision Studio](https://www.adaptive-vision.com/en/user_area/download/) installed is also mandatory for the SDK.
 
 ### Usage
-1. Make sure AVS_PROFESSIONAL_SDK5_6 enviarioment varaible is set.
-
-2. Clone this repository
+1. Clone this repository
    ```bash
    git clone https://github.com/ErykDevZebra/CmakeUserFilterWindows.git
-   ```
-3. Open CMD in clonned folder 
-   
-4. Run CMake Build 
+   ```  
+2. Run CMake Build 
    ```bash
-   cmake —-build . —-config Release
+   cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+   ```
+
+3. Run CMake 
+   ```bash
+   cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+   ```
+
+4. Run MSBuild Build 
+   ```bash
+   msbuild ./build/UserFilterLibrary.sln /property:Configuration=Release
    ```
