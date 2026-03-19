@@ -16,7 +16,7 @@ Having [Aurora™ Vision Studio](https://www.adaptive-vision.com/en/user_area/do
    
 2. Run CMake 
    ```bash
-   cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+   cmake -S . -B build
    ```
 
 3. Run MSBuild Build 
