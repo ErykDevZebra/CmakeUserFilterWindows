@@ -6,7 +6,7 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 Compiling the filter requires MVSC compiler installed and CMake. 
-Having [Aurora™ Vision Studio](https://www.adaptive-vision.com/en/user_area/download/) downloaded is also mandatory for the SDK.
+Having [Aurora™ Vision Studio](https://www.adaptive-vision.com/en/user_area/download/) installed is also mandatory for the SDK.
 
 ### Usage
 1. Make sure AVS_PROFESSIONAL_SDK5_6 enviarioment varaible is set.
