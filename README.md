@@ -12,18 +12,14 @@ Having [Aurora™ Vision Studio](https://www.adaptive-vision.com/en/user_area/do
 1. Clone this repository
    ```bash
    git clone https://github.com/ErykDevZebra/CmakeUserFilterWindows.git
-   ```  
-2. Run CMake Build 
+   ```
+   
+2. Run CMake 
    ```bash
    cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
    ```
 
-3. Run CMake 
-   ```bash
-   cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
-   ```
-
-4. Run MSBuild Build 
+3. Run MSBuild Build 
    ```bash
    msbuild ./build/UserFilterLibrary.sln /property:Configuration=Release
    ```
